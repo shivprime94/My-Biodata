@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="icon" href="favicon-32x32.png">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="#" class="Logo" style=" letter-spacing: 2px;">Introduction</a>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#my-skills">My Skills</a></li>
+                <li><a href="#edu-back">My Education</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+
+    </header>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.menu-toggle').click(function () {
+                $('.menu-toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+
+        })
+    </script>
+    <div class="top-container">
+       
+        <h1> Shiv Shankar Kanaujiya</h1>
+
+        <p>Web Developer and Web Designer</p>
+
+        <img style="width: 50%;" class="mountain" src="undraw_maker_launch_crhe.svg" alt="mountain">
+
+    </div>
+
+
+    <div class="middle-container">
+        <div class="profile">
+            <h2 id="about-me">About Me</h2>
+            <img class="Profile"
+                src="https://th.bing.com/th?q=Nobita+Cool&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.25&pid=InlineBlock&mkt=en-IN&adlt=moderate&t=1&mw=247"
+                alt="">
+            <p> I am Shiv Shankar Kanaujiya . I am first year undergrade student at <strong>IIT KHARAGPUR </strong> . I
+                am a
+                student of <strong>Industrial and Systems Engineering</strong>
+                department ,enrolled in its dual degree programm <strong>Quality Enginering Design and
+                    Manufacturing.</strong>
+            </p>
+        </div>
+
+
+
+        <div class="skills">
+            <h2 id="my-skills">My Skills</h2>
+
+            <div class="skill-row">
+
+                <img class="" src="monitoring.svg" alt="Design Development">
+                <h2> Design & Development</h2>
+                <p>I started learning Web Development from initial stage of my first semester.
+                    Web development is the work involved in developing a Web site for the Internet or an intranet.
+                    Web development can range from developing a simple single static page of plain text to complex
+                    Web-based
+                    Internet applications, electronic businesses, and social network services.
+                </p>
+
+                <div class="skill-row">
+                    <img class="" src="cyber-security.svg" alt="Cyber Security">
+                    <h2>Cyber Security</h2>
+                    <p>I am learning Cyber Security . I am not much professional yet . My seniors are guiding me .Soon i
+                        will be
+                        professional.
+                        Cyber security is the practice of defending computers, servers, mobile devices, electronic
+                        systems,
+                        networks,
+                        and data from malicious attacks.
+                        It's also known as information technology security or electronic information security. </p>
+
+                </div>
+                <div class="skill-row">
+                    <img style="width: 40%;" class="Game Development" src="GameDevelopment.svg" alt="Game Development">
+                    <h2>Game Development</h2>
+                    <p>I am learning Game Development because i am a part of Computer Graphics Lab .
+                        I am not much professional yet ,Soon i will be professional.
+
+                        Games and sports are two closely related concepts. Games refer to activities done for amusement,
+                        recreation
+                        or fun.
+                        Sports on the other hand refer to a physical activity where individuals or team compete for
+                        entertainment
+                        purposes
+                        Games and sports are not only important for success in studio but it is important for success in
+                        every walks
+                        of our life.
+
+                    </p>
+                </div>
+                <div class="skill-row">
+                    <img class="Animation" src="3d-movie.svg" alt="Animation">
+
+                    <h2>Animation</h2>
+                    <p>I like make vector images in Adobe Illustrator . I do some video editing in Adobe Photoshop.
+                        Animation is a method in which pictures are manipulated to appear as moving images. In
+                        traditional
+                        animation, images are drawn or painted by hand on transparent
+                        celluloid sheets to be photographed and exhibited on film.</p>
+                </div>
+
+                <div class="education">
+                    <h2 id="edu-back">My Education</h2>
+                    <ul>
+                        <li class="edu">I completed my elementary education from Daya Shankar Public School.</li>
+                        <li class="edu">I prepared for JEE with Unacdemy .</li>
+                        <li class="edu">Now, I am persuing my B.tech + M.tech from IIT KHARAGPUR .</li>
+
+                    </ul>
+                </div>
+
+
+
+
+
+                <div class="CONTACT">
+                    <h2>Get in Touch</h2>
+                    <p>You have any doubt always feel free to ping me without any hesitation .</p>
+                    <a class="BUTTON_BKY" href="mail-to:riyuzaki9894@gmail.com" id="contact">CONTACT ME</a>
+                </div>
+            </div>
+            <div class="bottom-container">
+                <a class="footer-link" href="https://www.linkedin.com/in/shiv-shankar-kanaujiya-b2ab601b8/"
+                    target="_blank"><i class="fa fa-linkedin"></i>LinkedIn</a>
+                <a class="footer-link" href="https://twitter.com/shiv_prime94" target="_blank"><i
+                        class="fa fa-twitter"></i>Twitter</a>
+                <a class="footer-link" href="https://www.youtube.com/channel/UCuAiDCljymKxvkNOi5z2Cag"
+                    target="_blank"><i class="fa fa-youtube-play"></i>Youtube</a>
+                <a class="footer-link" href="https://www.facebook.com/shiv.prime.9894/"><i
+                        class="fa fa-facebook-official"></i>Facebook</a>
+                <a class="footer-link" href="footer-link" href="https://www.instagram.com/shiv_prime94"
+                    target="_blank"><i class="fa fa-instagram"></i>Instagram</a>
+                <a class="footer-link" href="footer-link" href="https://www.github.com/shiv_prime94" target="_blank"><i
+                        class="fa fa-github" ></i>Github</a>
+                <p>© 2021 Shiv Shankar Kanaujiya</p>
+            </div>
+
+</body>
+
+</html>
+
+</body>
+
+</html>
